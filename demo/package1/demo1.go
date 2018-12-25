@@ -1,7 +1,8 @@
-package demo1
+package package1
 
-import "fmt"
+// import "fmt"
 
-func SayHello() {
-    fmt.Println("Hello, I am in package1.demo1!");
+func SayHello(name string) string {
+    fmt.Println("Hello, I am in package1. My name is demo1!");
+    return string("Hello,"+name);
 }
