@@ -1,4 +1,4 @@
-package datetime
+package tools
 
 import "fmt"
 import "testing"
